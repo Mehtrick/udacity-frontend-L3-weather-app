@@ -1,6 +1,6 @@
 /* Global Variables */
 //This APIKey is deactivated. I did not feel save to push an api key to github which still can be used.
-const apiKey = "525f451a403f1d9f673f86af84382778&units=imperial";
+const apiKey = "542ffd081e67f4512b705f89d2a611b2&units=imperial";
 const openWeatherBaseUrl = `https://api.openweathermap.org/data/2.5/weather`;
 
 async function getWeatherDataFromOpenWeather(openWeatherBaseUrl, apiKey, zipCode) {
