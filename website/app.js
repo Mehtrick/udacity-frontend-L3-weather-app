@@ -43,7 +43,7 @@ function updateUi(allData) {
 
 async function postWeatherData(url, data) {
     let d = new Date();
-    let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
+    let newDate = (d.getMonth()+1) + "." + d.getDate() + "." + d.getFullYear();
     const userResponse = document.getElementById("feelings").value;
     const dataEntry = {
         temperature: data.main.temp,
